@@ -3,7 +3,6 @@
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/employee-verification-document-authentication?label=version)](https://wordpress.org/plugins/employee-verification-document-authentication/)
 [![Rating](https://img.shields.io/wordpress/plugin/rating/employee-verification-document-authentication)](https://wordpress.org/plugins/employee-verification-document-authentication/#reviews)
 [![Downloads](https://img.shields.io/wordpress/plugin/dt/employee-verification-document-authentication)](https://wordpress.org/plugins/employee-verification-document-authentication/advanced/)
-[![Active Installs](https://img.shields.io/wordpress/plugin/installs/employee-verification-document-authentication)](https://wordpress.org/plugins/employee-verification-document-authentication/)
 [![Requires WP](https://img.shields.io/wordpress/plugin/wp-version/employee-verification-document-authentication)](https://wordpress.org/plugins/employee-verification-document-authentication/)
 [![Requires PHP](https://img.shields.io/wordpress/plugin/required-php/employee-verification-document-authentication)](https://wordpress.org/plugins/employee-verification-document-authentication/)
 [![License: GPL v2+](https://img.shields.io/badge/License-GPLv2%2B-blue.svg)](LICENSE)
