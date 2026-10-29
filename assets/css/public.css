@@ -1,0 +1,169 @@
+/* Employee Verification - Public Styles */
+.ev-wrap {
+    max-width: 680px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+.ev-wrap h2 {
+    color: #003366;
+    border-bottom: 3px solid #003366;
+    padding-bottom: 8px;
+}
+.ev-form { margin: 20px 0; }
+.ev-field-row { display: flex; gap: 10px; }
+.ev-input {
+    flex: 1;
+    padding: 10px 14px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color .2s;
+}
+.ev-input:focus { border-color: #003366; }
+.ev-btn {
+    padding: 10px 22px;
+    background: #003366;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background .2s;
+}
+.ev-btn:hover { background: #00509e; }
+.ev-btn-download {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 10px 22px;
+    background: #28a745;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.ev-btn-download:hover { background: #218838; color: #fff; }
+
+/* Result boxes */
+.ev-result {
+    margin-top: 24px;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+}
+.ev-success { background: #f0fff4; border: 2px solid #28a745; }
+.ev-error   { background: #fff5f5; border: 2px solid #dc3545; color: #721c24; font-weight: 600; padding: 14px; }
+.ev-icon    { font-size: 20px; }
+
+/* Badge */
+.ev-badge {
+    position: absolute;
+    top: 16px; right: 16px;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+.ev-badge-active          { background: #28a745; color: #fff; }
+.ev-badge-intern          { background: #007bff; color: #fff; }
+.ev-badge-former-employee { background: #6c757d; color: #fff; }
+.ev-badge-invalid         { background: #dc3545; color: #fff; }
+
+/* Employee photo */
+.ev-photo-wrap { text-align: center; margin-bottom: 16px; }
+.ev-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid #003366; }
+
+/* Details table */
+.ev-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+.ev-table th,
+.ev-table td { padding: 10px 14px; border-bottom: 1px solid #e0e0e0; text-align: left; }
+.ev-table th { width: 40%; color: #555; font-weight: 600; background: #f7f9fc; }
+.ev-table tr:last-child th,
+.ev-table tr:last-child td { border-bottom: none; }
+
+/* Verified stamp */
+.ev-verified-stamp {
+    margin-top: 16px;
+    text-align: center;
+    color: #28a745;
+    font-size: 18px;
+    font-weight: 700;
+    border: 3px solid #28a745;
+    border-radius: 6px;
+    padding: 8px;
+    display: inline-block;
+}
+
+/* QR Code */
+.ev-qr-wrap { margin-top: 20px; text-align: center; }
+.ev-qr-wrap img { display: block; margin: 0 auto 6px; }
+.ev-qr-wrap small { color: #888; }
+
+/* ── Multi-field search layout ── */
+.ev-search-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.ev-search-field-row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ev-search-field-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #444;
+}
+
+.ev-search-hint {
+    font-size: 12px;
+    color: #888;
+    margin: 0;
+    font-style: italic;
+}
+
+.ev-btn-search {
+    margin-top: 4px;
+    align-self: flex-start;
+}
+
+/* Settings page — search option checkboxes */
+.ev-search-opt {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 14px;
+    background: #f9fafb;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background .15s;
+}
+.ev-search-opt:hover { background: #eef3ff; border-color: #b3c9f5; }
+.ev-search-opt input[type="checkbox"] {
+    margin-top: 3px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.ev-search-label {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.ev-search-label strong { font-size: 13px; color: #1a202c; }
+.ev-search-label small  { font-size: 12px; color: #718096; }
+
+/* Document status badges */
+.evda-status-valid   { color: green; font-weight: 700; }
+.evda-status-revoked { color: red;   font-weight: 700; }
+
+/* QR code image */
+.evda-qr-img { display: block; }
